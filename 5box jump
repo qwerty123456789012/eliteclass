@@ -16,3 +16,22 @@ int main() {
 	f(4);
 	return 0;
 }
+
+
+//JAVA
+import java.io.*;
+
+class Ideone {
+     static int f(int n){
+        int f;
+        if(n<=3)
+        return n;
+        else
+        f=f(n-1)+f(n-2)+f(n-3);
+        return f;
+    }
+	public static void main (String[] args) {
+		//code
+		System.out.println(f(5));
+	}
+}
